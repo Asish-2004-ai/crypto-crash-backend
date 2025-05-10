@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const http = require('http');
-const app = require('./app');
+const app = require('./api/app');
 const { setupSocket } = require('./socket');
 const cors = require('cors');
 
